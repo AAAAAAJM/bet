@@ -1,0 +1,21 @@
+{
+  "name": "bet-cherry-picker",
+  "version": "0.1.0",
+  "description": "Odds-based football betting slip optimizer MVP with cherry-picking, EV filtering, and cover-profit simulation.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "check": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
